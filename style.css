@@ -39,3 +39,31 @@ width: 100%;
     overflow: scroll;
 }
 
+.justiy1{
+ color: blue;
+ text-align: justify;
+  text-justify: inter-word;
+    
+}
+
+/* Map */
+.map{
+    background-color: red; 
+}
+iframe{
+    margin: 25px;
+}
+
+/* Address */
+
+.address h1,h4,h6{
+ color: white;
+ margin-top: 15px;
+  
+}
+
+.address p{
+    padding: 0;
+    color: white;
+    margin: auto;
+}
