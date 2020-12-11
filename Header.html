@@ -71,24 +71,87 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <div style="margin-left: auto">
           <ul class="navbar-nav">
-            <a class="navbar-brand text-white" href="#">Home</a>
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="/AboutUs.html"
-                >About US <span class="sr-only">(current)</span></a
+            <a class="navbar-brand text-white" href="Home.html">Home</a>
+
+            <!--start - containt with dropdown -->
+            <li class="nav-item active dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="#"
-                >Our Work<span class="sr-only">(current)</span></a
+                AboutUs
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
               >
+                <a class="dropdown-item" href="#">Mesco At Glance</a>
+                <a class="dropdown-item" href="#">Our Team</a>
+                <a class="dropdown-item" href="#">Managing Committee</a>
+              </div>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="#"
-                >Our News<span class="sr-only">(current)</span></a
+            <!--End - AboutUs with dropdown -->
+
+            <!--start - Our Work with dropdown -->
+            <li class="nav-item active dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
+                Our Work
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Educational Scholarships</a>
+                <a class="dropdown-item" href="#">Medical Aid</a>
+                <a class="dropdown-item" href="#">Clinics & Dispensaries</a>
+                <a class="dropdown-item" href="#">General Aid</a>
+                <a class="dropdown-item" href="#"
+                  >R C Mahim Mun. School Adoption</a
+                >
+              </div>
             </li>
+
+            <!--End - Our Work with dropdown -->
+
+            <!--start - Our News with dropdown -->
+
+            <li class="nav-item active dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Our News
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">In Media </a>
+
+                <a class="dropdown-item" href="#"
+                  >Newsletters & Annual Reports</a
+                >
+              </div>
+            </li>
+            <!--End- Our News with dropdown -->
+
             <li class="nav-item active">
-              <a class="nav-link disabled text-white" href="#"
+              <a class="nav-link disabled text-white" href="Home.html#address"
                 >Contact Us<span class="sr-only">(current)</span></a
               >
             </li>
@@ -98,10 +161,4 @@
     </nav>
     <div id="includedContent" onload="includedContent"></div>
   </body>
-
-  <script>
-    $(function () {
-      $("#includedContent").load("Footer.html");
-    });
-  </script>
 </html>
