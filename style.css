@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+i{
+    color: white;
+    padding: 5px;
+    height: 40px;
+    width: 30px;
+    float: right;
+    
+}
+.back{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding-top:10px ;
+}
+
+/* Crousel */
+.widthsize{
+height: 400px;
+width: 100%;
+}
+
+/* card css */
+.text{
+    margin: 20px;
+}
+.width{
+    width: 250px;
+   
+    
+    
+}
+.text-scroll{
+    height: 210px;
+    overflow: scroll;
+}
+
